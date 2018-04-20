@@ -45,9 +45,9 @@
 
 <style lang="less">
 .recommendResources{
-  .el-tabs{
-    height: 104px;
-  }
+  /*.matchIndex .title .el-tabs__header{*/
+    /*height:104px;*/
+  /*}*/
   .el-tabs__active-bar{
     display: none;
   }
@@ -59,6 +59,9 @@
   .el-tabs__item.is-active{
     color: #1F2D3D;
     font-weight: bolder;
+  }
+  .el-tabs__nav-wrap{
+    height:104px;
   }
   .el-tabs__header{
     border: none;
